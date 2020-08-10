@@ -13,7 +13,7 @@ const BookDetails = () => {
     return book.id === id;
   });
   if (!book) {
-    return <h3>Loading...</h3>;
+    return <h3>Initial loading.....</h3>;
   }
 
   const { image: url, title, description, author, price } = book;
